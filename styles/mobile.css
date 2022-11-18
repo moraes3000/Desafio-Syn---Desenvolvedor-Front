@@ -1,0 +1,58 @@
+@media (max-width: 768px) {
+  nav img {
+    padding: 0 1rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 45px;
+    padding: 1rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+    line-height: 38px;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  img {
+    max-width: 250px;
+    max-height: 250px;
+  }
+
+  .formulario-colum {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100wh;
+  }
+
+  #second img {
+    max-width: 250px;
+    max-height: 250px;
+    margin-top: 0px;
+    margin-left: auto;
+  }
+
+  #first img {
+    max-width: 250px;
+    max-height: 250px;
+    margin-top: 0px;
+    margin: 0 auto;
+  }
+
+  #formulario img {
+    max-width: 250px;
+    max-height: 250px;
+    margin-top: 0px;
+    margin: 0 auto;
+  }
+}

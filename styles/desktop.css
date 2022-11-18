@@ -1,0 +1,210 @@
+nav {
+  background-color: var(--violet);
+}
+
+nav div {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+nav img {
+  width: 140px;
+  height: 60px;
+  margin: 30px 0;
+}
+
+h2 {
+  font-size: 5rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  line-height: 90px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 1.875rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+}
+
+.btn {
+  background-color: var(--violet);
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  width: 100%;
+  padding: 17px;
+}
+
+.btn:hover {
+  background: var(--violet-hover);
+  transition: all 0.5s;
+}
+
+.btn-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+  margin-top: 32px;
+}
+
+#first {
+  background-color: var(--violet);
+  padding-bottom: 3rem;
+}
+
+.wrapper {
+  display: flex;
+  gap: 3;
+  flex-direction: row;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+#first img {
+  width: 600px;
+  height: 600px;
+  margin-top: -150px;
+}
+
+#second {
+  background-color: var(--orange);
+  padding-top: 5.5rem;
+}
+
+#second img {
+  width: 600px;
+  height: 600px;
+  margin-top: -150px;
+}
+
+#formulario img {
+  width: 600px;
+  height: 600px;
+}
+
+#formulario .paragraph-first {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  background: var(--orange);
+}
+
+.section-input {
+  margin: 2.5rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-input label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 1rem;
+}
+
+.section-input input {
+  height: 65px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.section-input small {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--danger);
+  margin-top: 1rem;
+  display: none;
+}
+
+.w-full {
+  width: 100vw;
+  padding: 3rem;
+}
+
+.orange {
+  background-color: var(--orange);
+}
+
+.violet {
+  background-color: var(--violet);
+}
+
+.formulario-colum {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.input-checkbox input {
+  width: 30px;
+  height: 30px;
+}
+
+.input-checkbox label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.contador {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.contador button {
+  width: 52px;
+  height: 41px;
+  background: #8701cf;
+  border-radius: 4px;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.contador button:hover {
+  background: var(--violet-hover);
+  transition: all 0.5s;
+}
+
+.badge {
+  width: 68px;
+  height: 41px;
+  background: #ffffff;
+  border-radius: 4px;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}

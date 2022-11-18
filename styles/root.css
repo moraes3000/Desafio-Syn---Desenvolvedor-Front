@@ -1,0 +1,28 @@
+@import "desktop.css";
+@import "mobile.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+button,
+submit {
+  border: none;
+}
+
+:root {
+  --violet: #8701cf;
+  --violet-hover: #9c04ed;
+  --violet-disabled: #d0b7de;
+  --orange: #ff7b29;
+  --white: #fff;
+  --danger: #e01515;
+  --success: #3ea90b;
+}
+
+body {
+  color: var(--white);
+}
